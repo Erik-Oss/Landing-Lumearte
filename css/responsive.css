@@ -1,0 +1,424 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1320px) {
+    .about_box_img {
+        margin-right: -20px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1620px) {
+    .logo {
+        margin-left: 6%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    ul.email li {
+        padding: 0 9px;
+    }
+    .banner_main .bg_white h1 {
+        font-size: 60px;
+    }
+    .carousel-indicators {
+        margin-left: 12%;
+    }
+    .about_box_img {
+        margin-right: 35px;
+    }
+    .about_box_text p {
+        font-size: 17px;
+        line-height: 26px;
+    }
+    .margin_left60 {
+        margin-left: -80px;
+        margin-right: 80px;
+    }
+    .reader h3 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 991px) {
+ .web{
+    display: none;
+ }
+ ul.email li{
+    padding-inline: 5px;
+    margin-top: -5px;
+ }
+ .btn-principal {
+    margin-left: 18%;
+    margin-top: 80px;
+    width: 215px;
+    height: 60px;
+    font-size: 28px;
+    display: block;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 1px 0px;
+    text-align: center;
+    font-weight: 500;
+    transition: ease-in all 0.5s;
+    border-radius: 1rem;
+    font-family: 'Permanent Marker', cursive;
+}
+.btn-principal:hover {
+    background: #a80000;
+    color: rgb(255, 255, 255);
+    transition: ease-in all 0.5s;
+}
+.ban_btn {
+    margin: -10px auto 0px auto;
+}
+.food {
+    margin-bottom: -60px;
+}
+.footer {
+    background: rgb(0, 0, 0);
+    min-height: 400px;
+}
+}
+@media (min-width: 991px) {
+    .mob{
+       display: none;
+    }
+    .btn-principal {
+        margin-top: 150px;
+        margin-left: 32%;
+        width: 410px;
+        height: 100px;
+        font-size: 38px;
+        display: block;
+        background: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        padding: 14px 0px;
+        text-align: center;
+        transition: ease-in all 0.5s;
+        border-radius: 1rem;
+        font-family: 'Permanent Marker', cursive;
+    }
+    .btn-principal:hover {
+        background: #a80000;
+        color: rgb(255, 255, 255);
+        transition: ease-in all 0.5s;
+   }
+   #build span{
+    line-height: 4rem;
+   }
+   #build h2 {
+    line-height: 3rem;
+   }
+   
+   }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .d_none {
+        display: none !important;
+    }
+    .banner_main .bg_white h1 {
+        font-size: 39px;
+        line-height: 40px;
+    }
+    .about_box_text h3 {
+        padding-bottom: 2px;
+        font-size: 20px;
+    }
+    .about_box_text p {
+        font-size: 17px;
+        line-height: 26px;
+    }
+    .ho_dist span {
+        font-size: 18px;
+    }
+    .margin_left60 {
+        margin-left: -32px;
+        margin-right: 32px;
+    }
+    ul.social_icon li {
+        padding-right: 117px;
+    }
+    .reader h3 {
+        font-size: 20px;
+    }
+    ul.xple_menu li a {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .d_none {
+        display: none !important;
+    }
+    .logo2 {
+        margin-left: 0;
+        text-align: center;
+        display: block;
+    }
+    .logo {
+        display: none;
+    }
+    ul.email li{
+        padding-top: 0px;
+    }
+    .banner_main .bg_white h1 {
+        font-size: 30px;
+        line-height: 140px;
+    }
+    .banner_main {
+    background: url(../images/banner1.jpg);
+    }
+    .carousel-indicators {
+        margin-left: 14%;
+    }
+    .about_box_img {
+        padding: 35px;
+        margin-right: 0px;
+    }
+    .titlepage h2 {
+        font-size: 23px;
+        line-height: 29px;
+    }
+    .lisertab .servi_tab {
+        padding: 12px 22px;
+    }
+    .ho_dist span {
+        font-size: 18px;
+    }
+    .padding_0 {
+        padding: 15px
+    }
+    .margin_top70p {
+        margin-top: 0px;
+    }
+    .margin_left20 {
+        margin-left: 0px;
+    }
+    .margin_right20 {
+        margin-right: 0px;
+    }
+    .margin_top170 {
+        margin-top: 0px;
+    }
+    .margin_left60 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .margin_top40 {
+        margin-top: 0px;
+    }
+    ul.social_icon li {
+        padding-right: 90px;
+    }
+    .reader p {
+        padding-bottom: 20px;
+    }
+    .main_form {
+        padding-bottom: 30px;
+    }
+    .padddd {
+        padding-right: 15px;
+    }
+    .services_main {
+        background: url(../images/service_bg_mobile.jpg);
+        padding-top: 0px;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+        background-size: 100% 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: fit-content;
+   }
+   .pedidos {
+    display: block;
+    background: rgb(153, 155, 48);
+    margin: 21%;
+    color: rgb(255, 255, 255);
+    max-width: 224px;
+    height: 61px;
+    padding: 14px 0px;
+    width: 100%;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 500;
+    transition: ease-in all 0.5s;
+    }
+    .pedidos:hover {
+        background: #6aaedb;
+        color: #fff;
+        transition: ease-in all 0.5s;
+    }
+}
+
+@media (max-width: 575px) {
+    header {
+        padding: 15px 10px;
+        padding-right: 0px;
+        max-height: 60px;
+    }
+    .d_none {
+        display: none !important;
+    }
+    .logo2 {
+        margin-left: 0;
+        display: block;
+        max-width: 160px;
+        float: left;
+    }
+    .logo {
+        display: none;
+    }
+    .email {
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    #web-text {
+        display: none;
+    }
+    #mob-text {
+        display: contents;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .banner_main {
+        margin-top: -1px;
+        background: url(../images/banner1.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-top: 40px;
+        display: inherit;
+        max-height: 600px;
+        max-width: fit-content;
+    }
+    .banner_main .bg_white h1 {
+        font-size: 38px;
+        line-height: 44px;
+        padding-bottom: 20px;
+    }
+    .ban-button {
+        margin-top: 0px;
+    }
+    .carousel-indicators {
+    display: none;
+    }
+
+    .about_box_text h3 {
+        font-size: 21px;
+        padding-bottom: 11px;
+    }
+    .about_box_img {
+        padding: 15px;
+        margin-right: 0px;
+    }
+    .about_box_text {
+        padding-left: 10px;
+    }
+    .building {
+        background-image: url(../images/back-mobile.jpg);
+        padding-top: 90px;
+        padding-bottom: 80px;
+        padding-left: 0%;
+        padding-right: 0;
+        min-height: 576px;
+    }
+
+    .building .container{
+        margin-left: 5%;
+    }
+    #build h2 {
+        font-size: 24px;
+        line-height: 2.4rem;
+    }
+    #build span {
+        font-size: 38px;
+    }
+    .container {
+        max-width: fit-content;
+    }
+
+    #build {
+        background-color: #ffffff9f;
+        max-width: 324px;
+        min-width: 320px;
+        padding-left: 40px;
+        padding-right: 310px;
+        padding-block: 10%;
+        margin-left: 0;
+        margin-right: 0%;
+        letter-spacing: .1rem;
+        display: grid;
+        text-align: center;
+   }
+   
+   .building .read_more {
+    margin-left: 0%;
+    }
+    .titlepage h2 {
+        font-size: 23px;
+        line-height: 29px;
+    }
+    .ho_dist span {
+        font-size: 18px;
+    }
+    .padding_0 {
+        padding: 15px
+    }
+    .margin_top70p {
+        margin-top: 0px;
+    }
+    .margin_left20 {
+        margin-left: 0px;
+    }
+    .margin_right20 {
+        margin-right: 0px;
+    }
+    .margin_top170 {
+        margin-top: 0px;
+    }
+    .margin_left60 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .margin_top40 {
+        margin-top: 0px;
+    }
+    ul.social_icon li {
+        padding-right: 15px;
+    }
+    .reader h3 {
+        padding-top: 30px;
+    }
+    .main_form {
+        padding-bottom: 30px;
+    }
+    .padddd {
+        padding-right: 15px;
+    }
+    .services_main {
+        background: url(../images/service_bg_mobile.jpg);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+        background-size: 100% 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+   }
+   .pedidos {
+    display: block;
+    background: rgb(108,172,228);;
+    margin: 21%;
+    color: rgb(255, 255, 255);
+    max-width: 224px;
+    height: 61px;
+    padding: 5px 0px;
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 500;
+    transition: ease-in all 0.5s;
+    }
+
+    .pedidos:hover {
+        background: rgb(153, 155, 48);
+        color: #fff;
+        transition: ease-in all 0.5s;
+    }
+}
